@@ -1,0 +1,98 @@
+body {
+    margin: 60px;
+    padding: 0 60px;
+}
+
+.navbar-brand {
+    font-size: 60px;
+    font-family: Abril Fatface;
+    color: black;
+}
+
+#navbarNav {
+    margin-left: 380px;
+    color: black;
+}
+
+.tittle {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+}
+
+.intro {
+    margin-top: 20px;
+}
+
+.paragraph {
+    font-size: 13px;
+}
+
+button {
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    background: rgb(240, 104, 54);
+    color: white;
+    border: 1px solid rgb(240, 104, 54);
+    text-align: justify center;
+    font-size: 13px;
+
+}
+
+.new {
+    background: black;
+    color: white;
+}
+
+h2 {
+    color: rgb(236, 178, 62);
+    margin-top: 10px;
+}
+
+small {
+    color: rgb(165, 161, 161);
+    font-size: 10px;
+}
+
+p1 {
+    color: rgb(165, 161, 161);
+    font-size: 20px;
+}
+
+p2 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+@media (max-width: 900px) {
+    .content {
+        max-width: 400px;
+    }
+
+    .image {
+        src: "images/image-web-3-mobile.jpg";
+        width: 330px;
+        height: 200px;
+    }
+
+    .new {
+        margin-top: 40px;
+    }
+
+    footer {
+        max-width: 400px;
+    }
+
+    .pic {
+        width: 50px;
+        height: 160px;
+    }
+
+    .intro-article {
+        max-width: 100px;
+        max-height: 300px;
+        margin-left: 2px;
+
+    }
+}
